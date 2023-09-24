@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+
+.logo{
+  font-weight: bold;
+   
+}
+ 
+button{
+    font-weight: 600;
+    font-size: 30px;
+    color: #222;
+    margin-inline: 7px;
+  
+    
+}
+.fancy-btn{
+border-radius: 100vh;
+border-top-right-radius: 0;
+font-size: 15px;
+padding: 10PX;
+background-color: hotpink !important;
+color: white;
+border: 0;
+
+}
+
+a,
+.login-btn{
+    background-color: transparent;
+    border: 0;
+    font-weight: normal !important;
+    font-size: 16px;
+    color: #222;
+    text-decoration: none !important;
+    padding: 5px;
+   
+}
+
+.hero{
+    margin: 40px;
+    margin-top: -100px;
+    animation: moveDown 2s forwards;
+
+}
+
+h1{
+    line-height: 3rem;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50vw;
+}
+
+.join-btn{
+    width: 200px;
+    margin-top: 10px;
+}
+
+@keyframes moveDown{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
